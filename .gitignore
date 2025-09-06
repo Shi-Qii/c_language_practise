@@ -1,0 +1,44 @@
+# 編譯輸出
+*.o
+*.out
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 編譯器產生的暫存檔
+*.a
+*.lib
+*.lo
+*.la
+*.mod
+*.pyc
+*.pyo
+
+# 依平台不同的暫存檔
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 自動產生的依賴檔案
+*.d
+*.dep
+
+# 專案資料夾
+.idea/          # IntelliJ / CLion
+.vscode/        # VSCode
+cmake-build*/   # CLion CMake 輸出
+build/          # 一般 build 資料夾
+dist/           # 發布檔案
+debug/          # 除錯輸出
+release/        # 釋出輸出
+
+# 測試暫存檔
+*.log
+*.tmp
+
+# pkg-config 之類自動生成的
+*.pc
